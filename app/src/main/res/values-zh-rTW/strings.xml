@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">TextGrab</string>
+    <string name="intent_extract_text">擷取文字</string>
+    <string name="tile_label">OCR 截圖</string>
+
+    <string name="home_subtitle">從任何圖片中選取並複製文字。\n一切都在本裝置上執行——無需網際網路，也無需 Google 服務。</string>
+    <string name="home_hint">提示：將任何圖片分享至 TextGrab，或將「OCR 截圖」圖塊加到快速設定——截圖後輕觸圖塊，即可選取文字。</string>
+    <string name="pick_image">選擇圖片</string>
+    <string name="latest_screenshot">最新截圖</string>
+
+    <string name="back">返回</string>
+    <string name="copy">複製</string>
+    <string name="copy_all">複製全部文字</string>
+    <string name="copied">已複製到剪貼簿</string>
+    <string name="share">分享</string>
+    <string name="select_all">全選</string>
+    <string name="select_all_short">全部</string>
+    <string name="search_web">搜尋網頁</string>
+    <string name="view_as_text">以文字檢視</string>
+    <string name="recognized_text">辨識出的文字</string>
+
+    <string name="enable_instant_capture">啟用即時擷取</string>
+    <string name="a11y_label">TextGrab 即時擷取</string>
+    <string name="a11y_description">讓「OCR 截圖」圖塊自行擷取螢幕，因此只需輕觸圖塊一次即可。TextGrab 只會在你輕觸圖塊時擷取螢幕。它不會讀取螢幕內容、不會監看你的輸入，且沒有網路存取權。</string>
+    <string name="capture_failed">螢幕擷取失敗，改為開啟最新截圖</string>
+
+    <string name="no_text_found">此圖片中找不到文字</string>
+    <string name="no_screenshot_found">找不到截圖</string>
+    <string name="permission_needed">需要相片存取權才能開啟你的最新截圖</string>
+    <string name="load_failed">無法開啟圖片。%1$s</string>
+</resources>
