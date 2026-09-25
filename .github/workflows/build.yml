@@ -22,17 +22,12 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # 3. 设置 Node.js 环境 (如果项目是 Web 技术或 React Native)
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+# 删除原来的 Node.js 和 npm install 部分，替换为：
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
-      # 4. 安装项目依赖 (根据你的项目调整)
-      - name: Install dependencies
-        run: |
-          npm install
-          # 如果你的项目需要，在此处添加构建命令，例如 npm run build
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug
 
       # 5. 构建 APK (这里以 Capacitor/Ionic 为例)
       - name: Build APK
